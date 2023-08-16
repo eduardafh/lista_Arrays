@@ -10,10 +10,10 @@
     const add = prompt(`Qual carro vc deseja add na lista?`).trim()
 
     //PROCESSAMENTO
-    let carrosSUV = ["Tiggo", "Sportage", "Tucson", "EcoSport"]
-    carrosSUV = carrosSUVorigin.push(add)
+    let carrosSUV = ["Tiggo", "Sportage", "Tucson", "EcoSport"];
+    carrosSUV.push(add);
 
     //SAÍDA
-    alert(`Lista antiga: ${carrosSUV}.\n Lista nova: ${carrosSUV}`)
+    alert(`Lista antiga: ${carrosSUVorigin.join(", ")}.\nLista nova: ${carrosSUV.join(", ")}.`)
 
 </script>
